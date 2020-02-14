@@ -1,0 +1,699 @@
+
+
+body {
+    //background-color: #EDEDED;
+	font-family: 'Cabin', sans-serif;
+	/* margin: 0; */
+	line-height: 1.8em;
+    
+	
+
+}
+
+.header-div {
+	width: 100%; 
+	max-width: 100%; 
+	margin: 0 auto; 
+}
+
+/* @@@@@@@@@@ Top banner @@@@@@@@@@@ */ 
+
+h1 {
+	background-color: /* #51C43C; */ #10300d;
+	color: #EDEDED;
+	padding: 0.5em; 
+	margin: 0; 
+	text-align: center;
+	font-size: 5em;  
+	
+
+}
+
+.test-font {
+font-family: 'Fjalla One', sans-serif;
+}
+
+h1 a {
+	text-decoration: none;
+	list-style-type: none; 
+	color: #EDEDED;
+}
+
+h1 a:visited {
+	color: #EDEDED; 
+}
+
+/* @@@@@@@@@@ NAV bar @@@@@@@@@@@@ */ 
+
+nav {
+	display: block; 
+}
+
+nav ul {
+    border-bottom-style: solid;
+    border-bottom-color: #10300d;
+    border-bottom-width: 2px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: -4px;
+   }
+
+ nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  nav a:hover {
+  	background-color: #525252;
+  }
+
+
+
+
+/* @@@@@@@@@@@ INDEX SITE @@@@@@@@@ */ 
+.text-one {
+	text-align: center; 
+}
+
+.container-text {
+	border: none; 
+	width: 100%; 
+
+}
+
+.container-text img {
+	width: 100%
+}
+
+.routes {
+	margin-bottom: 5%;
+	border: none;
+}
+
+.routes img {
+	width: 60%; 
+	float: left; 
+	margin-right: 5em; 
+}
+
+.routes h3 {
+	margin-left: 5%; 
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+#mb {
+	color: black; 
+	font-size: 1.5em;
+	margin-top: 5em;
+}
+
+#cb {
+	 color: red; 
+	 font-size: 1.5em;
+}
+
+#nb {
+	color: green; 
+	font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+/* @@@@@@@@@@@@@ TOURS SITE @@@@@@@@@@@@ */ 
+
+.wrapper {
+	width: 70%;
+	height: auto; 
+	margin: auto;
+
+
+}
+
+.content-wrapper {
+	width: 100%; 
+	border: none;
+	height: 70.3em; 
+
+
+}
+
+.content-wrapper p{
+	width: 90%;
+	
+}
+
+.column-top {
+	width: 96%;  
+	border:none; 
+	float: left; 
+	margin-left: 2%;
+	margin-right: 2%; 
+
+}
+
+
+.column-bottom {
+	width: 96%; 
+	border: none; 
+	float: center;
+	margin: 2%; 
+
+
+	
+}
+
+.float-left {
+	width: 46%;
+	float: left;
+	margin: 2%;
+
+
+}
+
+.float-right {
+	width: 46%; 
+	float: right;
+	margin: 2%;
+
+}
+
+
+.content-wrapper img {
+	width: 100%; 
+
+}
+
+
+
+
+
+table {
+	background-color: #D3D3D3; 
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 50%;
+
+
+	
+}
+
+table td {
+	padding-left: 1.9em;
+	padding-right: 1.9em; 
+	padding-top: 0.5em; 
+	padding-bottom: 0.5em; 
+	text-align: center;  
+
+}
+
+table th {
+	padding-left: 1.9em;
+	padding-right: 1.9em; 
+	padding-top: 0.5em; 
+	padding-bottom: 0.5em;  
+	text-align: center;  
+	color: #51C43C;  
+}
+
+
+.see {
+	text-align: center; 
+	margin-top: 1em; 
+}
+
+
+/* @@@@@@@@@@@@@@ ABOUT US SITE @@@@@@@@@@@@ */ 
+
+
+.content-wrapper22 {
+	width: 100%; 
+	border: none;
+	height: auto; 
+
+
+}
+
+.content-wrapper22 img {
+	width: 100%; 
+
+}
+
+
+
+
+
+/* @@@@@@@@@@@@@@ CONTACT US SITE @@@@@@@@@@@@ */ 
+
+.contact-wrapper{
+	width: 100%;
+	margin: auto;
+
+}
+
+.form-box {
+	border: none;
+	text-align: center;
+	margin-left: 0;
+
+
+}
+
+input {
+	border: 1px solid #10300d;
+	padding: 1em;
+	width: 30em;
+	border-radius: 0.4em;
+	margin-bottom: 2em; 
+	margin-left: none;  
+}
+
+textarea {
+
+	border: 1px solid #10300d;
+	width: 35em;
+	border-radius: 0.4em;
+	margin-bottom: 2em; 
+	resize: none;
+	margin-left: 0; 
+
+}
+form {
+	border: none;
+	width: 40%;
+	text-align: left;
+	float: left; 
+	margin-top: 3.5%;  
+	margin-left: 2%; 
+	
+
+}
+
+.contact-info {
+	border: none;
+	width: 50%; 
+	float: right;
+	margin: 5% 2% 0% 2%; 
+	margin-bottom: 0;
+	text-align: left;
+	border-bottom-style: solid;
+    border-bottom-color: #10300d;
+    border-bottom-width: 1px;
+}
+
+.contact-info p {
+	display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+.teb {
+	border:none;
+	width: 100%;
+	float: right; 
+	text-align: left; 
+
+}
+
+.tel {
+	float: left;
+	width: 31.33%;
+	text-align: left;
+	margin-left: 0;
+	margin-right: 2%;
+}
+
+.epost {
+	float: left;
+	width: 31.33%;
+	text-align: left;
+	margin-right: 2%;
+	margin-left: 0; 
+
+}
+
+.besok {
+	float: right;
+	width: 31.33%;
+	text-align: left;
+	margin-right: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @@@@@@@@@ ONE COLUMN STACK @@@@@@@@@ */ 
+
+
+@media only screen and (max-width: 1260px) {
+input {
+	border: 1px solid green;
+	padding: 1em;
+	width: 30em;
+	border-radius: 0.2em;
+	margin-bottom: 2em; 
+	margin-left: none;  
+}
+
+textarea {
+
+	border: 1px solid green;
+	width: 35em;
+	border-radius: 0.4em;
+	margin-bottom: 2em; 
+	resize: none;
+	margin-left: 0; 
+
+}
+form {
+	border: none;
+	width: 70%;
+	text-align: left;
+	float: none; 
+	margin: auto; 
+	
+
+}
+
+.contact-info {
+	border: none;
+	width: 100%; 
+	float: none;
+	margin: 20; 
+	margin-bottom: 0;
+	text-align: left;
+	border-bottom-style: solid;
+    border-bottom-color: #525252;
+    border-bottom-width: 1px;
+}
+
+
+.teb {
+	border:none;
+	width: 100%;
+	float: none; 
+	
+	text-align: left; 
+
+}
+
+.tel {
+	float: left;
+	width: 48%;
+	text-align: left;
+	margin: 2%; 
+}
+.epost {
+	float: right;
+	width: 42%;
+	text-align: left;
+	margin: 2%;  
+
+}
+
+.besok {
+	float: none;
+	width: 92%;
+	text-align: left;
+	margin: 2%; 
+}
+
+#mb {
+	color: black; 
+	font-size: 1em;
+	margin-top: 15em;
+}
+
+#cb {
+	 color: red; 
+	 font-size: 1em;
+}
+
+#nb {
+	color: green; 
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @@@@@@@@@@@ 700px @@@@@@@@@@ */ 
+
+@media only screen and (max-width: 700px){
+body {
+	background-color: #10300d;
+	font-family: 'Cabin', sans-serif;
+	color: #EDEDED;
+	/* margin: 0; */
+	line-height: 1.8em;
+}
+
+p {
+	line-height: 1.4 !important; 
+}
+
+.wrapper {
+	width: 100%;
+	height: 1000px;
+    position: relative;
+}
+
+h1 {
+	background-color: #51C43C;
+	color: #EDEDED;
+	padding: 0.2em; 
+	margin: 0; 
+	text-align: center;
+	font-size: 2em; 
+
+
+}
+
+nav ul li {
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    font-size: 15px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+/* Index */ 
+
+.routes {
+	margin-bottom: 5%;
+	border: none;
+}
+
+.routes img {
+	width: 100%; 
+	margin: auto; 
+	
+}
+
+.routes h2 {
+	text-align: center;
+}
+
+.routes h3 {
+	margin-left: 5%; 
+	margin-top: 6%;
+	text-align: center;
+}
+
+
+/* Tours */ 
+
+.float-left {
+	width: 100%;
+	float: none;
+	margin: 0;
+}
+
+.float-right {
+	width: 100%; 
+	float: none;
+	margin: 0;
+}
+
+.float-right td {
+	color: black;
+}
+
+
+
+/* Contact */ 
+
+
+input {
+	border: 1px solid green;
+	padding: 1em;
+	width: 30em;
+	border-radius: 0.2em;
+	margin-bottom: 2em; 
+	margin-left: none;  
+}
+
+textarea {
+
+	border: 1px solid green;
+	width: 30em;
+	border-radius: 0.4em;
+	margin-bottom: 2em; 
+	resize: none;
+	margin-left: 0; 
+
+}
+form {
+	border: none;
+	width: 70%;
+	text-align: left;
+	float: none; 
+	margin-top: 3.5%;  
+	margin-left: 2%; 
+	
+
+}
+
+#con {
+	text-align: left;
+	margin: 2%;
+}
+
+.contact-info {
+	border: none;
+	width: 92%; 
+	float: none;
+	margin: 2%; 
+	margin-bottom: 0;
+	text-align: left;
+	border-bottom-style: solid;
+    border-bottom-color: #51C43C;
+    border-bottom-width: 1px;
+}
+
+
+.teb {
+	border:none;
+	width: 100%;
+	float: none; 
+	
+	text-align: left; 
+
+}
+
+.tel {
+	float: none;
+	width: 92%;
+	text-align: left;
+margin: 2%; 
+}
+
+.epost {
+	float: none;
+	width: 92%;
+	text-align: left;
+margin: 2%; 
+
+}
+
+.besok {
+	float: none;
+	width: 92%;
+	text-align: left;
+margin: 2%; 
+}
+
+
+
+
+
+
+
+table {
+	width: 100%
+
+}
+
+
+#mb {
+	color: black; 
+	font-size: 1em;
+	margin-top: 15em;
+	padding-top: 1em;
+}
+
+#cb {
+	 color: red; 
+	 font-size: 1em;
+}
+
+#nb {
+	color: green; 
+	font-size: 1em;
+}
+
+
+.bottom-marg {
+	padding-bottom: 3em;
+	margin-bottom: 3em; 
+}  
+}
+}

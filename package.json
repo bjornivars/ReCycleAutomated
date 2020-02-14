@@ -1,0 +1,24 @@
+{
+  "name": "courseassignmetngulp",
+  "version": "1.0.0",
+  "description": "Using the FEU1 project Re-Cycle, I will automate some shit",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gulp",
+    "CA",
+    "ReCycle"
+  ],
+  "author": "bjorn-ivarskuggen",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-imagemin": "^7.1.0"
+  }
+}
